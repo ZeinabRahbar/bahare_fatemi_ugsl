@@ -25,7 +25,7 @@ def get_config():
 
   # The dataset name.
   cfg.dataset = config_dict.ConfigDict()
-  cfg.dataset.name = "cora"
+  cfg.dataset.name = "stackoverflow"
   cfg.dataset.remove_noise_ratio = 0.0
   cfg.dataset.add_noise_ratio = 0.0
   cfg.dataset.add_wl_position_encoding = False
